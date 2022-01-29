@@ -1,0 +1,122 @@
+body,
+h1,
+h2,
+h3,
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #35424a;
+    border-bottom: 5px solid rgb(184, 128, 108);
+}
+
+#header h1 {
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px 0;
+    display: inline-block;
+}
+
+#header .logo {
+    color: #fff;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 25px 15px;
+    display: inline-block;
+}
+
+.navbar li a:hover {
+    color: coral;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+#banner {
+    height: 60vh;
+    background-image: url("images/merk.jpeg");
+    text-align: center;
+}
+
+#banner h1,
+p {
+    color: #fdfdff;
+    font-family: sans-serif;
+}
+
+#banner p {
+    font-size: 18px;
+}
+
+#banner h1 {
+    margin-bottom: 25px;
+    font-size: 40px;
+    padding-top: 150px;
+}
+
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#newsletter {
+    background-color: #1c4d6b;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+#newsletter .left {
+    float: left;
+    font-family: sans-serif;
+}
+
+#newsletter .right {
+    float: right;
+}
+
+#newsletter input {
+    padding: 5px;
+}
+
+.button {
+    padding: 7px 15px;
+    border: none;
+    background-color: coral;
+    color: #fff;
+    margin-left: 15px;
+}
+
+#courses {
+    padding: 30px 0;
+}
+
+.box {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+
+.box img {
+    max-width: 100%;
+    width: 120px;
+}
